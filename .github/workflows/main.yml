@@ -1,4 +1,4 @@
-name: Run Python Script
+name: Run send_chat Script
 
 on:
   schedule:
