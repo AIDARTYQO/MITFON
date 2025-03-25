@@ -1,4 +1,4 @@
-name: Run Python Script
+name: Run chatfon Script
 
 on:
   schedule:
@@ -23,4 +23,4 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
     - name: Run Python script
-      run: python send_chat.py>
+      run: python chatfon.py>
