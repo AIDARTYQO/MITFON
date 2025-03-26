@@ -2,7 +2,7 @@ name: Run appfon Script
 
 on:
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: '*/60 * * * *'
 
 jobs:
   run-script:
