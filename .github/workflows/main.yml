@@ -2,7 +2,7 @@ name: Run send_chat Script
 
 on:
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: '*/60 * * * *'
 
 jobs:
   run-script:
