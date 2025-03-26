@@ -2,7 +2,7 @@ name: Run chatfon Script
 
 on:
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: '*/60 * * * *'
 
 jobs:
   run-script:
